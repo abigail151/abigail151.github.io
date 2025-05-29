@@ -1,0 +1,31 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversión de Miligramos a Gramos</title>
+    <link rel="stylesheet" href="PA20.-Conversiónes.css">
+</head>
+<body>
+<center>
+    <div id="Cont6">
+        <h1 style="color: black;">Conversión de  Miligramos a Gramos</h1>
+        <h2 style="color: black;">Introduce una cantidad en  Miligramos : </h2>
+            <input type="text" name="num1" id="num1">
+            <br><br>
+            <input style="background-color: black; color: aliceblue;" type="button" name="aceptar" id="aceptar" value="Convertir" onclick="Converción()">
+            <br><br>
+            <h3 style="color: black;">El resultado de Gramos es :</h3> 
+            <input type="text" name="result" id="result">
+            <br><br>
+            <br><br>
+            <br><br>
+            <a style="color: black;" href="Menu.html">REGRESAR AL MENU</a>
+    </div>
+</center>
+<script>
+    function Converción()
+    {
+        var mil1 = document.getElementById('num1').value;
+        var operación = mil1 * 0.1;
+        document.getElementById('result').value = operación;
+    }
+</script>

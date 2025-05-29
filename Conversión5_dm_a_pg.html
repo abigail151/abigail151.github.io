@@ -1,0 +1,32 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversión de Decimetros a Pulgadas</title>
+    <link rel="stylesheet" href="PA20.-Conversiónes.css">
+</head>
+<body>
+    <center>
+        <div id="Cont5">
+            <h1 style="color: aliceblue;">Conversión de Decimetros a Pulgadas</h1>
+            <h2 style="color: aliceblue;">Introduce una cantidad en Decimetros :</h2>
+                <input type="text" name="num1" id="num1">
+                <br><br>
+                <input style="background-color: black; color: aliceblue;" type="button" name="aceptar" id="aceptar" value="Convertir" onclick="Converción()">
+                <br><br>
+                <h4 style="color: aliceblue;">El resultado de Pulgadas es : </h4>
+                <input type="text" name="result" id="result">
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <a style="color: aliceblue;" href="Menu.html">REGRESAR AL MENU</a>
+        </div>
+        <script>
+            function Converción()
+            {
+                var dm1 = document.getElementById('num1').value;
+                var operación = dm1 * 3.937;
+                document.getElementById('result').value = operación;
+            }
+        </script>
+    </center>

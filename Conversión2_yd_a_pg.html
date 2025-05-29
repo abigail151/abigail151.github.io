@@ -1,0 +1,36 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversión de yardas a pulgadas</title>
+    <link rel="stylesheet" href="PA20.-Conversiónes.css">
+</head>
+<body>
+    <center>
+        <div id="Cont2">
+            <h1 style="color: aliceblue; border-radius: 2;">Conversión de Yardas a Pulgadas</h1>
+            <h2 style="color: aliceblue; border-radius: 2;">Introduce una cantidad en YARDAS :</h2>
+            <input type="text" name="num1" id="num1">
+            <br><br>
+            <input style="background-color: black; color: aliceblue;" type="button" name="aceptar" id="aceptar" value="Convertir" onclick="Converción()">
+            <br><br>
+            <h4 style="color: aliceblue;">El resultado de Pulgadas es : </h4>
+            <input type="text" name="result" id="result">
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <a style="color: aliceblue;" href="Menu.html">REGRESAR AL MENU</a>
+        </div>
+        <script>
+            function Converción()
+            {
+                var yd1 = document.getElementById('num1').value;
+                var operación = yd1 * 36;
+                document.getElementById('result').value = operación;
+            }
+        </script>
+    </center>
+</body>
+</html>

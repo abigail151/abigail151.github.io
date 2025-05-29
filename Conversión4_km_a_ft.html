@@ -1,0 +1,33 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversión de Centimetros a Pies</title>
+    <link rel="stylesheet" href="PA20.-Conversiónes.css">
+</head>
+<body>
+    <center>
+        <div id="Cont4">
+            <h1 style="color: aliceblue;">Conversión de Centimetros a Pies</h1>
+            <h2 style="color: aliceblue;">Introduce una cantidad en Centimetros :</h2>
+                <input type="text" name="num1" id="num1">
+                <br><br>
+                <input style="background-color: black; color: aliceblue;" type="button" name="aceptar" id="aceptar" value="Convertir" onclick="Converción()">
+                <br><br>
+                <h3 style="color: aliceblue;">El resultado de Pies es : </h3>
+                <input type="text" name="result" id="result">
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <a style="color: aliceblue" href="Menu.html">REGRESAR AL MENU</a>
+        </div>
+        <script>
+            function Converción()
+            {
+                var cm1 = document.getElementById('num1').value;
+                var operación = cm1 * 3280.34;
+                document.getElementById('result').value = operación;
+            }
+        </script>
+    </center>

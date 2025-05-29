@@ -1,0 +1,36 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversión de Cm a M</title>
+    <link rel="stylesheet" href="PA20.-Conversiónes.css">
+</head>
+<body>
+    <center>
+        <div id="Cont1">
+            <h1 style="color: #cdedc0;">Conversión De Centimetros A Metros</h1>
+            <h2 style="color: #dbffba;">Introduce Una Cantidad En CENTIMETROS : </h2>
+            <input type="text" name="num1" id="num1">
+            <br><br>
+            <input style= "background-color: black; color: aliceblue;" type="button" name="aceptar" id="aceptar" value="Convertir" onclick="converción()">
+            <br><br>
+            <h3 style="color: #abd8ff;">El Resultado De Metros Es :</h3>
+            <input type="text" name="resul" id="resul">
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <a style="color: #b4f6fb;" href="Menu.html">REGRESAR AL MENU PRINCIPAL</a>
+        </div>
+    </center>
+    <script>
+        function converción()
+        {
+            var cm1 = document.getElementById('num1').value;
+            var operación = cm1 / 100;
+            document.getElementById('resul').value = operación;
+        }
+    </script>
+</body>
+</html>

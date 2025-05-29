@@ -1,0 +1,35 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversión de Pies a Millas</title>
+    <link rel="stylesheet" href="PA20.-Conversiónes.css">
+</head>
+<body>
+    <center>
+        <div id="Cont3">
+            <h1>Conversión de Pies a Millas</h1>
+            <h2>Introduce una cantidad en Pies :</h2>
+                <input type="text" name="num1" id="num1">
+                <br><br>
+                <input style="background-color: black; color: aliceblue;" type="button" name="aceptar" id="aceptar" value="Convertir" onclick="Converción()">
+                <br><br>
+                <h4 style="color: black;">El resultado de Millas es : </h4>
+                <input type="text" name="result" id="result">
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <a style="color: black;" href="Menu.html">REGRESAR AL MENU</a>
+        </div>
+        <script>
+            function Converción()
+            {
+                var pies1 = document.getElementById('num1').value;
+                var operación = pies1 / 5280;
+                document.getElementById('result').value = operación;
+            }
+        </script>
+    </center>
+</body>
+</html>

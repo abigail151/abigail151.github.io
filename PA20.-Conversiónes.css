@@ -1,0 +1,110 @@
+#Cont1
+{
+    width: 700px;
+    height: 700px;
+    border: 10px double black;
+    margin: auto;
+    background-color: #eaa4f0;
+    background-size: 100% 100%;
+    animation-direction: alternate;
+}
+#Cont2
+{
+    width: 500px;
+    height: 500px;
+    border: 10px dashed black;
+    margin: auto;
+    background-color: brown;
+    background-size: 50% 50%;
+    animation-direction: alternate; 
+}
+#Cont3
+{
+    width: 500px;
+    height: 500px;
+    border: 10px double black;
+    margin: auto;
+    background-color: violet;
+    background-size: 50% 50%;
+    animation-direction: alternate; 
+}
+#Cont4
+{
+    width: 500px;
+    height: 500px;
+    border: 10px solid black;
+    margin: auto;
+    background-color: #ffa3a3;
+    background-size: 50% 50%;
+    animation-direction: alternate; 
+}
+#Cont5
+{
+    width: 500px;
+    height: 500px;
+    border: 10px solid black;
+    margin: auto;
+    background-color: #9d9df4;
+    background-size: 50% 50%;
+    animation-direction: alternate; 
+}
+#Cont6
+{
+    width: 500px;
+    height: 500px;
+    border: 10px solid black;
+    margin: auto;
+    background-color: #a6f7f3;
+    background-size: 50% 50%;
+    animation-direction: alternate; 
+}
+#Cont7
+{
+    width: 500px;
+    height: 500px;
+    border: 10px dotted black;
+    margin: auto;
+    background-color: #60b0ff;
+    background-size: 50% 50%;
+    animation-direction: alternate; 
+}
+#Cont8
+{
+    width: 500px;
+    height: 500px;
+    border: 10px double black;
+    margin: auto;
+    background-color: #76eff1;
+    background-size: 50% 50%;
+    animation-direction: alternate; 
+}
+#Cont9
+{
+    width: 500px;
+    height: 500px;
+    border: 10px dashed black;
+    margin: auto;
+    background-color: #f792f7;
+    background-size: 50% 50%;
+    animation-direction: alternate; 
+}
+#Cont10
+{
+    width: 500px;
+    height: 500px;
+    border: 10px solid black;
+    margin: auto;
+    background-color: #f879da;
+    background-size: 50% 50%;
+    animation-direction: alternate; 
+}
+#M1
+{
+    width: 600px;
+    height: 600px;
+    border: 10px dashed black;
+    margin: auto;
+    background-color: plum;
+    background-size: 50% 50%;
+    animation-direction: alternate;  
+}
